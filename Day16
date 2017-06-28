@@ -1,0 +1,4 @@
+So today we ran into some speedbumps with wiring the box & cards in the box with clicks. I understand the logic of it: Click container 
+(run function) if the click is the card with the id "rightChoice" give points and move to next round, else deduct one click and move forward. But I'm having trouble figuring out how to signify the the id on the HTML element for the spot with the rightChoice image, since the item on page is not in the array, just a representation of something in the array. 
+
+Also running into a minor problem with our function that moves the player from round 1 to 2 to 3. Everything works fine if we do it manually, but trying to enter a time delay into it wrecks everything completely.
